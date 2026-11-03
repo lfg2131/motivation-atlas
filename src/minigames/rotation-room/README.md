@@ -28,8 +28,7 @@ breakdown keeps the focus on planning.
 
 ## Sources
 
-The note describes Challenge as **"game as obstacle course"** (Hunicke, LeBlanc,
-and Zubek 2004, p. 2). Fatigue creates a constraint, repeated decisions and
+The note describes Challenge as **"game as obstacle course"** (Hunicke et al. 2004, p. 2). Fatigue creates a constraint, repeated decisions and
 possible failure.
 
 Inspired by Kevin Toms' [*Football Manager* (1982)](https://kevintoms.itch.io/).

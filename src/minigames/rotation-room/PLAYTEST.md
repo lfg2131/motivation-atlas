@@ -1,10 +1,3 @@
-# Rotation Room: anonymous comparison playtest
-
-README status: **real playtest observations confirmed by lfg2131; final README
-approved**. The confirmed results and reactions are recorded in README.md.
-The procedure and blank worksheet below remain available for repeat playtests.
-Keep testers anonymous; do not record personal or identifying information.
-
 Open the Atlas at `http://localhost:5173/#/m/challenge` and scroll to **Play with
 it → Rotation Room**. If the server is stopped, run `npm run dev -- --host
 127.0.0.1 --port 5173 --strictPort` from this repository. The test should take a
@@ -53,25 +46,3 @@ Their words about feelings OFF:
 Which required more thought, and their reason:
 Help/clarifications provided:
 ```
-
-The author confirmed the original tester's scores (ON 2/4, OFF 3/4), three
-lineup changes in each run, different match-two selections, the quoted reactions,
-and the difficulty calculating power. No unreported lineups have been inferred.
-lfg2131 has decided to **KEEP** Codex's suggestion to show all four match
-targets upfront, "because it makes fatigue management a strategic planning
-challenge rather than a guessing game." This decision is recorded in Sources.
-
-## Submission gate
-
-GitHub identity must be `lfg2131`; remote must remain
-`columbia-university-ai-games/motivation-atlas`; branch must be
-`lfg2131/rotation-room`. Upstream Write access is unavailable. The author has
-explicitly authorized a fork under `lfg2131`, pushing this existing branch there,
-and opening a PR into the upstream `main`. Keep `origin` pointing upstream and
-use a separate `fork` remote. Do not force-push or push to upstream `main`.
-
-Before submission, review only this folder and
-`test/rotation-room.test.ts`, run `npm test`, `npm run typecheck`, and
-`npm run build`, plus browser checks. Commit the approved observations, push
-this branch to the authorized fork, open the upstream PR with `gh pr create`,
-and check its actual CI result. Submit the PR URL on CourseWorks.
